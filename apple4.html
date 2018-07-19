@@ -17,25 +17,50 @@
 </head>
 <body>
     <style>
+        body{
+        margin: 0px;
+        
+        }
         a{
         color:black;
         text-decoration: none;
         
         }
-        li{
-        list-style: none;
+        ol{
+        border-right: 1px solid gray;
+        width: 100px;
+        margin: 0px;
+        padding: 20px;
         }
+        
         h1{
-        font-size: 50px;
-        text-align: center;}
+            font-size: 50px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0px;
+            padding: 20px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns:150px 1fr;
+            
+        }
+        }
+        
+        
+        }
     </style>
+    
     <h1><a href="apple2.html">Apple</a></h1>
-    <ul>
+<div id="grid">
+    <ol>
         <li><a href="imac.html">Mac</a></li>
         <li><a href="ipad.html">iPad</a></li>
         <li><a href="iphone.html">iPhone</a></li>
         <li><a href="Watch.html">Watch</a></li>
-    </ul>
+    </ol>
+    
+    <div>
     <h2>iphone X</h2>
    
     <img src='iphonex.jpg' width="100%"><br>
@@ -55,6 +80,8 @@
         고성능 프로세서와 메모리, 첨단 그래픽, 쏜살같이 빠른 저장 장치 등으로 무장한 MacBook Pro와<br>
         함께 당신의 야심찬 아이디어를 어디서든, 그 어느 때보다 빠르게 실현할 수 있습니다.
     </p>
+    </div>
+</div>
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
